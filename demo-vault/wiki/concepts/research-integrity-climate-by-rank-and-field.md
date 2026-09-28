@@ -1,0 +1,45 @@
+---
+type: concept
+title: "How does perceived research integrity climate vary by academic rank and disciplinary field?"
+description: What one instrument-based survey of 1,298 Amsterdam researchers found about perceived organizational research integrity climate, measured with the Survey of Organizational Research Climate (SOuRCe), and how its seven subscales differ by academic rank and disciplinary field.
+created: 2026-09-04
+updated: 2026-09-28
+sources: [haven-2019b]
+status: draft
+generated:
+  by: claude-code/claude-sonnet-5
+  at: 2026-09-04
+provisional: true
+---
+
+# How does perceived research integrity climate vary by academic rank and disciplinary field?
+
+Organizational research integrity climate is the shared meaning organization members attach to the events, policies, practices and procedures they experience, and to which behaviours they see rewarded, supported and expected, applied to the local research environment [[haven-2019b]]. This page collects what one source reports about measuring that climate directly with a validated instrument, the Survey of Organizational Research Climate (SOuRCe), rather than inferring it from researchers' own rates of using questionable research practices. It rests on a single source and carries `provisional: true` until a second paper speaks to it. The source cites, without independently measuring, a finding that a more favourable climate is associated with lower self-reported questionable research practices; that association is not itself evidence this page reports, only a motivation the source states for studying climate [[haven-2019b]].
+
+## The instrument
+
+SOuRCe scores seven subscales on a 1 ("not at all") to 5 ("completely") scale, plus a not-applicable option; each subscale is the mean of its valid items, and every subscale (including Integrity Inhibitors, which is reverse-scored) is oriented so a higher score means a more favourable perceived climate [[haven-2019b]]. Two subscales are institutional level: RCR Resources (educational opportunities, policies, and leaders who support responsible conduct of research) and Regulatory Quality (fairness of regulatory committees) [[haven-2019b]]. Five are departmental level: Integrity Norms (whether integrity norms exist in the department), Integrity Socialization (whether junior researchers are effectively socialized into research integrity), Supervisor-Supervisee Relations, (Lack of) Integrity Inhibitors (resource shortages, suspicion or competition that make responsible research harder), and Expectations (fairness of publishing and funding expectations) [[haven-2019b]].
+
+## Sample
+
+A survey of academic researchers and PhD students, employed at least one day a week, at two Amsterdam universities and two academic medical centers; 7,548 were invited, 1,298 (17% of invitees per the paper's Results section, though its own Study limitations section separately states an 18% completion rate; both figures are the paper's own and are not reconciled here) completed at least one SOuRCe subscale [[haven-2019b]]. Respondents are classified by academic rank (PhD student, postdoc, assistant professor, associate professor, full professor, with postdocs and assistant professors grouped together and associate and full professors grouped together for the pairwise comparisons below) and disciplinary field (biomedicine, natural sciences, social sciences, humanities) [[haven-2019b]].
+
+## Differences by academic rank
+
+Six of the seven subscales were significantly associated with rank. Associate and full professors scored higher (a more favourable climate) than both PhD students and postdocs/assistant professors on RCR Resources, Integrity Socialization, Supervisor-Supervisee Relations and Expectations, on Bonferroni-corrected pairwise comparisons [[haven-2019b]]. PhD students also scored lower than associate and full professors on Integrity Inhibitors (perceiving more suspicion and competition among colleagues), and postdocs/assistant professors scored lower than associate and full professors on Integrity Norms [[haven-2019b]]. On RCR Resources specifically, postdocs and assistant professors scored lower even than PhD students [[haven-2019b]]. Effect sizes (Hedges' g) for these differences were small, with one exception: postdocs/assistant professors versus associate/full professors on Integrity Socialization was large (g = .87), the single largest effect size in either analysis [[haven-2019b]].
+
+The source attributes junior researchers' lower Expectations scores to their career prospects depending more directly on meeting publication and funding criteria than senior researchers' do; their lower Supervisor-Supervisee Relations scores are flagged as potentially concerning given mentoring's association, elsewhere in the literature the source cites, with researcher stress; and postdocs' and assistant professors' lower Integrity Norms scores are read as possibly indicating they witness less responsible research, though the source does not measure this directly [[haven-2019b]]. RCR Resources showed effect modification by gender: female researchers perceived more resources than male researchers except among PhD students, where the pattern reversed; the source offers this only as a tentative, unresolved observation, citing general evidence that women value procedural justice more than men while cautioning this may not explain the specific pattern found [[haven-2019b]].
+
+A post-hoc correction for clustering (respondents nested in departments, disciplines and institutions, using an estimated Variance Inflation Factor built from another study's unpublished intraclass correlations) removed the significant rank associations with Integrity Norms and Integrity Inhibitors; the source names these two subscales but refers to them as "these three subscales", and does not name a third. It states that the other associations with rank remained significant after the same correction [[haven-2019b]].
+
+## Differences by disciplinary field
+
+Disciplinary field was significantly associated with two subscales. Humanities researchers scored lower than both social sciences and biomedical sciences researchers on Regulatory Quality, which the source attributes to regulatory bodies playing a smaller role in fields like literature or philosophy than in fields like biomedicine [[haven-2019b]]. On Expectations, social sciences researchers scored lower than biomedical and natural sciences researchers, and humanities researchers scored lower than both biomedical and natural sciences researchers; the source attributes this to publishing norms in fields like philosophy or law (books, national or specialist outlets) being less valued by departments than journal publications [[haven-2019b]]. Effect sizes were mostly small, with two medium exceptions: humanities versus biomedical sciences on Regulatory Quality (g = .50) and humanities versus natural sciences on Expectations (g = .55) [[haven-2019b]]. Both field associations remained significant after the same clustering correction described above for rank [[haven-2019b]].
+
+## What the source concedes
+
+The source gives two completion-rate figures, 17% in its Results and 18% in its Study limitations, without comment on the difference (see Sample above) [[haven-2019b]]. Comparing sample demographics (excluding the two medical centers, for which population data was unavailable) to publicly available population figures for the two universities, the source judges that it had a reasonably representative sample from the various ranks: PhD students were 41% of the sample against 32% of the population, postdocs and assistant professors 38% against 40%, and associate and full professors 21% against 27% [[haven-2019b]]. The sample overrepresents women (57% against a national academic figure of 39%), attributed mainly to overrepresentation of female PhD students; the source reports having corrected for gender as a confounder where relevant and concludes on that basis that this selectivity is unlikely to have biased its results [[haven-2019b]]. Because only gender, rank and disciplinary field were collected, to protect respondent and institutional privacy, the source could not classify respondents by institution, department or specific field, which it states may have missed meaningful within-category variability, and which made a standard multilevel model infeasible, hence the post-hoc clustering correction described above rather than a full multilevel analysis [[haven-2019b]].
+
+## Related pages
+
+- [[publication-pressure-by-rank-and-field]]: a companion survey of the same Amsterdam sample, using a different validated instrument (the revised Publication Pressure Questionnaire) to measure a different construct, perceived publication pressure rather than organizational research integrity climate. The two pages' figures are not merged; the source for this page states explicitly it reports only its SOuRCe results, with the publication-pressure results reported in the companion paper.
