@@ -38,7 +38,7 @@ The agent may notice the planted error while reading and offer to repair it. In 
 Follow this vault's schema. Run the Lint workflow over the whole wiki. Report every issue before repairing anything, then fix the mechanical issues and stop.
 ```
 
-About three minutes. Expect around ten judgement issues, and a different set each time you run it. The planted error in `text-mined-p-values` should be among them every time.
+About three minutes. Expect around ten judgement issues, and a different set each time you run it. In our runs on the demo model (Opus 5.5) the planted error in `text-mined-p-values` was among them each time. In one run on a different model it was missed, so if your lint does not report it, ask about that page directly. One check is a sample, not an audit.
 
 ## Step 4b, the repair
 
