@@ -15,7 +15,7 @@ No programming is needed. You need an agentic coding tool (the workshop uses the
 | `starter/` | An empty wiki with the same schema, for building your own. |
 | `prompts.md` | Every prompt used in the demo, ready to paste. |
 | `CHANGES.md` | What each demo step changed, in plain words. |
-| `resources.md` | Links: the original idea, tutorials, tools, and critiques. |
+| `resources.md` | Links: the original idea, tutorials and tools. |
 | `ATTRIBUTION.md` | The fifteen papers, their authors and licences. |
 | `LICENSE.md` | Licence for the materials. |
 

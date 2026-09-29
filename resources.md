@@ -25,7 +25,3 @@ Links checked on 28 September 2026. Inclusion is not endorsement; apart from the
 ## Costs and models
 
 Prices and model line-ups change monthly, so none are given here. Three things hold regardless. First, an ingest is a few minutes of agent time per paper, which is modest on a subscription. Second, smaller models are faster and cheaper but follow the schema less reliably; in building this vault, the cheapest model tried finished first and broke the schema on a concept page. That is one run, an anecdote and not a comparison. Third, with a cloud model the provider sees the paper text and every page written, so for unpublished work, paywalled papers or participant data, check your provider's retention terms and your institution's guidance before you start.
-
-## The sceptics
-
-Two common objections, both fair: that an AI-curated wiki is not sustainable to maintain, and that errors compound until the wiki collapses. The honest answer is that the wiki stays sound only while the agent does the maintenance and the researcher keeps reading what matters. The lint step slows drift; only reading stops it.
